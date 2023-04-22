@@ -1,6 +1,8 @@
 const express = require("express");
 const app = express();
 
+require('dotenv').config();
+
 const path = require("path");
 const { speechToText } = require("./try");
 
@@ -38,7 +40,7 @@ app.get("/:recordName", async (req, res) => {
 
 //app.get("/submit", (req, res) => {});
 
-app.listen(4000, () => {
+app.listen(process.env.PORT, () => {
 
     console.log("listening on 4000");
 });

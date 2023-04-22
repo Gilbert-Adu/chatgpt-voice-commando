@@ -64,7 +64,7 @@ function speechToText(recordName) {
     };
 
     axios.request(options).then(function (response) {
-        console.log(gptAgent2(response.data.data["text"]));
+        console.log(gptAgent(response.data.data["text"]));
         //return gptAgent2(response.data.data["text"]);
     }).catch(function (error) {
         console.error(error);
