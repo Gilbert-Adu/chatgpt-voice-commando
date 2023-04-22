@@ -1,5 +1,7 @@
 # chatgpt-voice-commando
 
+Tool already built. API costs preventing usage and deployment. 
+
 I envision that this tool will be built on two APIs-- the chatGPT API and any speech-to-text API. 
 A similar tool has probably been built given the popularity of chatGPTs API with developers but this is just so I can practice. 
 
