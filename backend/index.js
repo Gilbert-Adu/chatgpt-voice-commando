@@ -40,7 +40,7 @@ app.get("/:recordName", async (req, res) => {
 
 //app.get("/submit", (req, res) => {});
 
-app.listen(process.env.PORT, () => {
+app.listen(process.env.PORT || 4000, () => {
 
     console.log("listening on 4000");
 });
