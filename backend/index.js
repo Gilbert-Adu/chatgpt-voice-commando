@@ -37,7 +37,7 @@ app.get("/:recordName", async (req, res) => {
 });
 
 
-
+//had to update npm
 //app.get("/submit", (req, res) => {});
 
 app.listen(process.env.PORT || 4000, () => {
